@@ -1,0 +1,27 @@
+{
+  "expectations": [
+    {
+      "id": "8e527282-78aa-4f84-80a6-56143917f138",
+      "kwargs": {
+        "column": "number",
+        "max_value": 18000.0
+      },
+      "meta": {},
+      "type": "expect_column_max_to_be_between"
+    },
+    {
+      "id": "10e3e9de-4993-416a-8101-e51a9eca7a51",
+      "kwargs": {
+        "column": "levy"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    }
+  ],
+  "id": "ce7da139-cb1f-4a69-b157-6731cd710fe2",
+  "meta": {
+    "great_expectations_version": "1.5.1"
+  },
+  "name": "expectations",
+  "notes": null
+}

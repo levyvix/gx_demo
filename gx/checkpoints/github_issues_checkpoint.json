@@ -1,0 +1,12 @@
+{
+  "actions": [],
+  "id": "de989096-b5bd-4be0-b99c-88e768201310",
+  "name": "github_issues_checkpoint",
+  "result_format": "SUMMARY",
+  "validation_definitions": [
+    {
+      "id": "cbf1c5ff-39af-4a9c-ad74-d765d1ac2de1",
+      "name": "validations_github_issues"
+    }
+  ]
+}

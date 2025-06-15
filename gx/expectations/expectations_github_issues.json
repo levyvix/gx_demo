@@ -1,0 +1,37 @@
+{
+  "expectations": [
+    {
+      "id": "b959ddbe-7b64-4c7e-a912-280ee01d12f0",
+      "kwargs": {
+        "column": "number",
+        "max_value": 18000.0
+      },
+      "meta": {},
+      "type": "expect_column_max_to_be_between"
+    },
+    {
+      "id": "313a6139-7831-4280-984d-d66ffe827c4e",
+      "kwargs": {
+        "column": "number"
+      },
+      "meta": {},
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "321cbe2e-44c2-4e0d-b2a2-e969b2a93a0a",
+      "kwargs": {
+        "column": "number",
+        "max_value": 18000.0,
+        "min_value": 1.0
+      },
+      "meta": {},
+      "type": "expect_column_values_to_be_between"
+    }
+  ],
+  "id": "01cec291-4636-4057-8f2d-cdc09cd47b2a",
+  "meta": {
+    "great_expectations_version": "1.5.1"
+  },
+  "name": "expectations_github_issues",
+  "notes": null
+}

@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "b846247b-0c83-4a58-b31b-cb26efb98604",
+      "name": "github_issues"
+    },
+    "batch_definition": {
+      "id": "324264a8-667d-44c0-92ce-b15cff6e60c6",
+      "name": "my batch definition"
+    },
+    "datasource": {
+      "id": "79b28cf4-1761-49e4-aa04-56dbf8ccfe54",
+      "name": "mysql-source"
+    }
+  },
+  "id": "f7c5eedf-a46c-49e1-ad67-7aa71eef6009",
+  "name": "validations",
+  "suite": {
+    "id": "ce7da139-cb1f-4a69-b157-6731cd710fe2",
+    "name": "expectations"
+  }
+}
