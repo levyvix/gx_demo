@@ -95,6 +95,6 @@ fluent_datasources:
             partitioner:
         table_name: issues
         schema_name: github_issues
-    connection_string: mysql+pymysql://admin:l123@localhost:3306/github_issues
+    connection_string: ${GX_MYSQL_CONNECTION_STRING}
 analytics_enabled:
 data_context_id: aa050a9b-0dea-43ef-abf6-61b61c61867b
