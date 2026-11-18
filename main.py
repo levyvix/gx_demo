@@ -1,13 +1,18 @@
 import great_expectations as gx
 import great_expectations.expectations as gxe
+import os
 from expectations.issues_expectations import build_expectation_suite
 
 
 def setup_context():
+    connection_string = os.getenv("GX_MYSQL_CONNECTION_STRING")
+    if not connection_string:
+        raise RuntimeError("GX_MYSQL_CONNECTION_STRING must be set")
+
     context = gx.get_context()
     datasource = context.data_sources.add_or_update_sql(
         "mysql-source",
-        connection_string="mysql+pymysql://admin:l123@localhost:3306/github_issues",
+        connection_string=connection_string,
     )
     data_asset = datasource.add_table_asset(
         name="github_issues", table_name="issues", schema_name="github_issues"
